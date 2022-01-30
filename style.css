@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 2, 49);
+    color: yellow;
+}
+
+main{
+    padding-top: 40px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    height: 300px;
+    margin: 20px 20px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.card .imagem{
+    width: 100%;
+    background-color: violet;
+    padding-top: 5px;
+}
+
+.nome{
+    margin-top: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#inputContainer{
+    text-align: center;
+}
+
+#inputContainer input{
+    margin-top: 20px;
+    height: 40px;
+    width: 500px;
+    padding: 5px;
+}
